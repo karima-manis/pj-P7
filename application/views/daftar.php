@@ -6,15 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Halaman Login</h1>
+    <h1>Halaman Registrasi</h1>
+    <br><br>
     <form action="">
-        
+        <input type="text" placeholder="nama lengkap" name="nama">
+        <br><br>
         <input type="text" placeholder="username" name="username">
         <br><br>
         <input type="password" placeholder="password" name="password">
         <br><br>
-        <input type="submit" value="LOGIN">
+        <input type="submit" value="DAFTAR">
     </form>
-    <p class="">Belum Punya Akun? <a href="<?= base_url()?>daftar">Daftar</a></p>
 </body>
 </html>
